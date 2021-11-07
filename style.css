@@ -1,4 +1,102 @@
+
+/* USING PX */
+
 body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 0, 85);
+    color: white;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+.description {
+    font-size: 23px;
+}
+
+.content {
+    height: 500px;
+    width: 1335px;
+    margin: 165px;
+}
+
+.left {
+    display: inline-block;
+    width: 615px;
+    margin-right: 65px;
+    margin-top: 105px;
+    /* Only way to align horizontally */
+    vertical-align: top;
+    /* Only way to align horizontally */
+}
+
+.right {
+    display: inline-block;
+    width: 575px;
+    margin-left: 65px;
+    
+}
+
+.free7days {
+    height: 50px;
+    width: 575px;
+    border-radius: 10px;
+    background-color: royalblue;
+    color: white;
+    font-size: 20px;
+}
+
+.form {
+    height: 400px;
+    margin-top: 20px;
+    padding: 40px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+input {
+    display: block;
+    height: 40px;
+    width: 490px;
+    margin: 25px 0;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-width: thin;
+}
+
+.termsAndConditions {
+    color: gray;
+    width: 280px;
+    margin: 15px  115px;
+    text-align: center;
+}
+
+.claim {
+    height: 50px;
+    width: 515px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border-width: thin;
+    background-color: rgb(21, 168, 21);
+    color: white;
+    font-size: 15px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+
+/* ================================================ */
+
+/* USING % */
+
+/* body {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 0, 85);
@@ -25,9 +123,9 @@ h1 {
     width: 46%;
     margin-right: 5%;
     margin-top: 8%;
-    /* Only way to align horizontally */
+    Only way to align horizontally
     vertical-align: top;
-    /* Only way to align horizontally */
+    Only way to align horizontally
 }
 
 .right {
@@ -86,4 +184,4 @@ input {
 a {
     color: red;
     text-decoration: none;
-}
+} */
